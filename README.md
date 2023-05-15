@@ -5,9 +5,12 @@ This repository contains an implementation of the AlexNet convolutional neural n
 ### TODO
 
 - [ ] Learn the AlexNet paper
-- [ ] Implement in the jupyter [notebook](/notebook/alexnet.ipynb)
-- [ ] Write alexnet.py
-- [ ] Test the implementation on a small dataset
+- [ ] Implement all in the alexnet [jupyter notebook](/notebook/alexnet.ipynb)
+    - [ ] AlexNet layers
+    - [ ] AlexNet dropout
+- [ ] Add implementation to the repository
+- [ ] Test on a small dataset
+- [ ] Add test results
 
 ### License
 
