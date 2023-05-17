@@ -10,7 +10,7 @@ This repository contains an implementation of the AlexNet convolutional neural n
     - [ ] Overfitting
 - [ ] AlexNet [jupyter notebook](/notebook/alexnet.ipynb)
     - [x] Layers
-    - [ ] ReLU
+    - [x] ReLU
     - [ ] Classifier
 - [ ] Add model to the repository
 - [ ] Test on a small dataset
