@@ -13,7 +13,8 @@ This repository contains an implementation of the AlexNet convolutional neural n
         - [x] Layers
         - [x] ReLU
         - [x] MLP Classifer with Dropout
-        - [ ] Forward Function
+        - [x] Forward Function
+        - [x] Test Model
 - [ ] Add model to the repository
 - [ ] Test on a small dataset
 - [ ] Add test results
