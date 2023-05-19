@@ -6,18 +6,19 @@ This repository contains an implementation of the AlexNet convolutional neural n
 
 - [ ] Learn the AlexNet paper
     - [x] Abstract
-    - [ ] Architecture
+    - [x] Architecture
     - [ ] Overfitting
 - [ ] AlexNet [jupyter notebook](/notebook/alexnet.ipynb)
     - [x] Model
         - [x] Layers
         - [x] ReLU
-        - [x] MLP Classifer with Dropout
+        - [x] MLP Classifer
         - [x] Forward Function
-        - [x] Test Model
+        - [x] Test
+        - [x] Visualize
 - [ ] Repository
     - [ ] Add model.py
-    - [ ] Add document
+    
 ### License
 
 This project is licensed under the terms of the [MIT License](LICENSE).
