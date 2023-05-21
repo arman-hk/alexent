@@ -4,11 +4,11 @@ This repository contains an implementation of the AlexNet convolutional neural n
 
 ### TODO
 
-- [ ] Learn the AlexNet paper
+- [x] Learn the AlexNet paper
     - [x] Abstract
     - [x] Architecture
-    - [ ] Overfitting
-- [ ] AlexNet [jupyter notebook](/notebook/alexnet.ipynb)
+    - [x] Overfitting
+- [x] AlexNet [jupyter notebook](/notebook/alexnet.ipynb)
     - [x] Model
         - [x] Layers
         - [x] ReLU
@@ -16,8 +16,9 @@ This repository contains an implementation of the AlexNet convolutional neural n
         - [x] Forward Function
         - [x] Test
         - [x] Visualize
-- [ ] Repository
-    - [ ] Add model.py
+- [x] Repository
+    - [x] Add [model.py](/model.py)
+    - [x] Add [example.py](/example.py)
     
 ### License
 
