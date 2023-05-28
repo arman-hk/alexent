@@ -7,9 +7,11 @@ class AlexNet(nn.Module):
         self.layers = nn.Sequential(
             nn.Conv2d(3, 96, 11, 4),
             nn.ReLU(),
+            nn.LocalResponseNorm(5, 0.0001, 0.75, 2),
             nn.MaxPool2d(3, 2),
             nn.Conv2d(96, 256, 5, padding=2),
             nn.ReLU(),
+            nn.LocalResponseNorm(5, 0.0001, 0.75, 2),
             nn.MaxPool2d(3, 2),
             nn.Conv2d(256, 384, 3, padding=1),
             nn.ReLU(),
@@ -38,7 +40,7 @@ class AlexNet(nn.Module):
                 nn.init.normal_(m.weight, 0, 0.01)
                 if m.bias is not None:
                     nn.init.constant_(m.bias, 0)
-        nn.init.constant_(self.layers[3].bias, 1)
+        nn.init.constant_(self.layers[4].bias, 1)
         nn.init.constant_(self.layers[8].bias, 1)
         nn.init.constant_(self.layers[10].bias, 1)
     
